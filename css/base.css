@@ -1,0 +1,166 @@
+/*
+
+    Project: Project name
+    Master screen styles
+
+    Author: Author / www.site.com
+    Copyright: 2012, Author. All rights resevered
+
+-----------------------------------------------------------------------*/
+
+body
+{
+    font: normal 13px/1.4 Arial, Verdana, Tahoma, Sans-Serif;
+    color: #000;
+    text-align: center;
+    background: #fff;
+}
+
+
+/* ==========================================================================
+   Clearings
+   ========================================================================== */
+.clearfix:before,
+.clearfix:after
+{
+    content: "";
+    display: table;
+}
+.clearfix:after
+{
+    clear: both;
+}
+.clear
+{
+    clear: both;
+    height: 0;
+}
+
+
+/* ==========================================================================
+   Accessibility & SEO
+   ========================================================================== */
+.accessibility
+{
+    position: absolute;
+    left: -9999em;
+    top: -9999em;
+}
+.ir
+{
+    border: 0;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+    background-color: transparent;
+}
+
+/* ==========================================================================
+   Elements
+   ========================================================================== */
+hr
+{
+    height: 1px;
+    margin: 0 0 10px;
+    padding: 0;
+    color: #dddcd6;
+    background-color: #dddcd6;
+    border: 0;
+}
+blockquote
+{
+    font-style: italic;
+}
+ul
+{
+    margin: 0 0 15px;
+    padding: 0 0 0 15px;
+    list-style-type: square;
+}
+dl
+{
+    margin: 0 0 15px;
+    }
+    dl dt
+    {
+        font-weight: bold;
+    }
+    dl dd 
+    {
+        margin: 0 0 0 15px;
+    }
+
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/* Headings
+   ========================================================================== */
+h1
+{
+}
+h2
+{
+}
+h3
+{
+}
+h4
+{
+}
+p
+{
+    margin: 0 0 15px;
+}
+
+/* Links
+   ========================================================================== */
+a
+{
+    color: #92939b;
+    text-decoration: underline;
+}
+a:hover
+{
+    color: #252737;
+}
+a:focus,
+a:active
+{
+    color: #252737;
+    text-decoration: none;
+}
+
+/* Image + image link border
+   ========================================================================== */
+img
+{
+    display: block;
+}
+a img
+{
+    border: 0;
+}
+
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+fieldset
+{
+    display: block;
+    border: 0;
+}
+legend
+{
+    display: none;
+}
+
+
+/* ==========================================================================
+   Main layout
+   ========================================================================== */
+#wrapper
+{
+}
