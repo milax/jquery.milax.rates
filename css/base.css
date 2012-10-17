@@ -46,14 +46,6 @@ body
     left: -9999em;
     top: -9999em;
 }
-.ir
-{
-    border: 0;
-    font: 0/0 a;
-    text-shadow: none;
-    color: transparent;
-    background-color: transparent;
-}
 
 /* ==========================================================================
    Elements
@@ -163,4 +155,13 @@ legend
    ========================================================================== */
 #wrapper
 {
+    text-align: left;
+    padding: 50px;
+}
+
+ul.clean
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }

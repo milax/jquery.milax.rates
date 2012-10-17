@@ -1,0 +1,47 @@
+/* image replacement */
+.ir
+{
+    border: 0;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+    background-color: transparent;
+}
+
+.mxRate input[type="radio"]
+{
+    display: none;
+}
+.mxRate ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+    display: inline;
+}
+.mxRate li
+{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+.mxRate a
+{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../gfx/star.png) 0 0 no-repeat;
+}
+.mxRate a.rated,
+.mxRate a.highlighted
+{
+    background: url(../gfx/star-rated.png) 0 0 no-repeat;
+}
+.mxRate a:hover,
+.mxRate a.active
+{
+    background: url(../gfx/star-active.png) 0 0 no-repeat;
+}
